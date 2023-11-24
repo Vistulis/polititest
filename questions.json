@@ -1,0 +1,17 @@
+{
+  
+  "questions": [
+    {
+      "questionName": "The market mechanism should be present in society.",
+      "questionEffects": {
+        "markets": 1
+      }
+    },
+    {
+      "questionName": "Criticising the government should be met with harsh punishments.",
+      "questionEffects": {
+        "authority": 1
+      }
+    }
+  ]
+}
