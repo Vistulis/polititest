@@ -44,6 +44,31 @@ body {
   transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
 }
 
+#agree-btn {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+#strongly-agree-btn {
+  background-color: #388e3c;
+  color: #ffffff;
+}
+
+#ambivalent-btn {
+  background-color: #bdbdbd;
+  color: #333333;
+}
+
+#disagree-btn {
+  background-color: #d32f2f;
+  color: #ffffff;
+}
+
+#strongly-disagree-btn {
+  background-color: #c62828;
+  color: #ffffff;
+}
+
 .button:hover {
   background-color: darken(#4caf50, 10%);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
