@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questionnaire</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap">
+  <style>
+    body {
+      background-color: #3a3b3d;
+      color: #ffffff;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    #question-num-text {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    #question-box {
+      background-color: #2c2d2e;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    #question-text {
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .button {
+      flex: 1;
+      padding: 10px;
+      margin: 5px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    }
+
+    #agree-btn {
+      background-color: #4caf50;
+      color: #ffffff;
+    }
+
+    #strongly-agree-btn {
+      background-color: #388e3c;
+      color: #ffffff;
+    }
+
+    #ambivalent-btn {
+      background-color: #bdbdbd;
+      color: #333333;
+    }
+
+    #disagree-btn {
+      background-color: #d32f2f;
+      color: #ffffff;
+    }
+
+    #strongly-disagree-btn {
+      background-color: #c62828;
+      color: #ffffff;
+    }
+
+    .button:hover {
+      background-color: darken(#4caf50, 10%);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      transform: translateY(-5px);
+    }
+
+    .button:active {
+      background-color: darken(#4caf50, 20%);
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <div id="question-num-text">Loading question numbers</div>
+  <div id="question-box">
+    <div id="question-text">Loading questions.</div>
+  </div>
+  <div class="button-container">
+    <button class="button" id="strongly-agree-btn">Strongly Agree</button>
+    <button class="button" id="agree-btn">Agree</button>
+    <button class="button" id="ambivalent-btn">Ambivalent</button>
+    <button class="button" id="disagree-btn">Disagree</button>
+    <button class="button" id="strongly-disagree-btn">Strongly Disagree</button>
+  </div>
+</body>
+</html>
