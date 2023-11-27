@@ -32,7 +32,7 @@ body {
 .button-container {
   display: flex;
   flex-direction: column;
-  width: 40% + 20px;
+  width: calc(40% + 20px);
 }
 
 .button {
