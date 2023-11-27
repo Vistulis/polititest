@@ -13,7 +13,7 @@ async function fetchQuestions() {
 
 function loadQuestion() {
   const currentQuestion = questionsData.questions[currentQuestionIndex];
-  document.getElementById('question-num-text').innerText = `Question ${currentQuestionIndex + 1} of ${questionsData.questions.length} to start`;
+  document.getElementById('question-num-text').innerText = `Question ${currentQuestionIndex + 1} of ${questionsData.questions.length}`;
   document.getElementById('question-text').innerText = currentQuestion.questionName;
 }
 
